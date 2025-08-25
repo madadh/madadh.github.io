@@ -1,95 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jack [Surname] - Physics Graduate</title>
-    <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jack [Surname] - Physics Graduate</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
     body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f9;
+        font-family: 'Poppins', sans-serif;
+        background-color: #f0f4f8;
         margin: 0;
         padding: 0;
         display: flex;
         justify-content: center;
     }
     .container {
-        max-width: 800px;
+        max-width: 700px;
         width: 90%;
-        background: #fff;
-        padding: 40px;
+        background: #ffffff;
+        padding: 40px 30px;
         margin: 40px 0;
-        box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        border-radius: 10px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        text-align: center;
     }
     h1 {
-        text-align: center;
-        color: #222;
+        color: #1a73e8;
         margin-bottom: 10px;
-    }
-    h2 {
-        color: #333;
-        border-bottom: 2px solid #1a73e8;
-        padding-bottom: 5px;
-        margin-top: 30px;
-        margin-bottom: 15px;
+        font-weight: 600;
     }
     p {
+        color: #555555;
         line-height: 1.6;
-        color: #555;
+        margin-bottom: 30px;
     }
-    a {
-        color: #1a73e8;
-        text-decoration: none;
+    hr {
+        border: 0;
+        height: 2px;
+        background: #1a73e8;
+        margin-bottom: 30px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
-    a:hover {
-        text-decoration: underline;
-    }
-    .project {
-        margin-bottom: 20px;
-    }
-    .contact a {
+    .links a {
         display: block;
-        margin-bottom: 5px;
+        margin: 12px 0;
+        color: #ffffff;
+        background-color: #1a73e8;
+        padding: 12px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background 0.3s;
+    }
+    .links a:hover {
+        background-color: #155bb5;
     }
 </style>
 </head>
 <body>
 
+<div class="container">
     <h1>Jack [Surname]</h1>
-    <p>Physics undergraduate at Queen's University Belfast. Skilled in coding, data analysis, and problem-solving. Seeking graduate opportunities in physics, technology, and data-driven industries.</p>
+    <p>Physics undergraduate at Queen's University Belfast. Skilled in coding, data analysis, and problem-solving. I am looking for graduate opportunities in physics, technology, and data-driven industries.</p>
+    
+    <hr>
 
-    <div class="section">
-        <h2>CV</h2>
-        <p>Download my CV: <a href="CV.pdf" target="_blank">CV (PDF)</a></p>
+    <div class="links">
+        <a href="CV.pdf" target="_blank">Download CV</a>
+        <a href="https://github.com/username/project1" target="_blank">Project 1: Physics Simulation</a>
+        <a href="https://github.com/username/project2" target="_blank">Project 2: Quantum Visualizer</a>
+        <a href="https://github.com/username/project3" target="_blank">Project 3: Data Analysis Tool</a>
+        <a href="mailto:your.email@example.com">Contact Me</a>
     </div>
-
-    <div class="section">
-        <h2>Projects</h2>
-        
-        <div class="project">
-            <h3>Physics Simulation: Projectile Motion</h3>
-            <p>Python simulation of projectile motion under gravity using NumPy and Matplotlib.</p>
-            <p><a href="https://github.com/username/project1" target="_blank">View Project</a></p>
-        </div>
-
-        <div class="project">
-            <h3>Quantum State Visualizer</h3>
-            <p>Simulated basic quantum states and superposition using Python and QuTiP.</p>
-            <p><a href="https://github.com/username/project2" target="_blank">View Project</a></p>
-        </div>
-
-        <!-- Add more projects here -->
-    </div>
-
-    <div class="section">
-        <h2>Contact</h2>
-        <div class="contact">
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
-            <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
-            <a href="https://github.com/username" target="_blank">GitHub</a>
-        </div>
-    </div>
+</div>
 
 </body>
 </html>
