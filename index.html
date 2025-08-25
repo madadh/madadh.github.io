@@ -15,13 +15,9 @@
         justify-content: center;
     }
     .container {
-        max-width: 700px;
+        max-width: 800px;
         width: 90%;
-        background: #ffffff;
         padding: 40px 30px;
-        margin: 40px 0;
-        border-radius: 12px;
-        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
         text-align: center;
     }
     h1 {
@@ -44,18 +40,35 @@
         margin-right: auto;
     }
     .links a {
-        display: block;
-        margin: 12px 0;
-        color: #ffffff;
-        background-color: #1a73e8;
-        padding: 12px 20px;
-        border-radius: 8px;
+        display: inline-block;
+        margin: 10px 15px;
+        color: #1a73e8;
         text-decoration: none;
         font-weight: 500;
-        transition: background 0.3s;
+        transition: color 0.3s;
     }
     .links a:hover {
-        background-color: #155bb5;
+        color: #155bb5;
+    }
+    .projects {
+        text-align: left;
+        margin-top: 40px;
+    }
+    .project {
+        margin-bottom: 40px;
+    }
+    .project img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-top: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .project h3 {
+        color: #1a73e8;
+        margin-bottom: 5px;
+    }
+    .project p {
+        margin-bottom: 10px;
     }
 </style>
 </head>
@@ -69,10 +82,28 @@
 
     <div class="links">
         <a href="CV.pdf" target="_blank">Download CV</a>
-        <a href="https://github.com/username/project1" target="_blank">Project 1: Physics Simulation</a>
-        <a href="https://github.com/username/project2" target="_blank">Project 2: Quantum Visualizer</a>
-        <a href="https://github.com/username/project3" target="_blank">Project 3: Data Analysis Tool</a>
         <a href="mailto:your.email@example.com">Contact Me</a>
+        <a href="https://github.com/username" target="_blank">GitHub</a>
+    </div>
+
+    <div class="projects">
+        <div class="project">
+            <h3>Project 1: Physics Simulation</h3>
+            <p>A Python simulation of projectile motion using NumPy and Matplotlib. Demonstrates physics modelling and data visualisation skills.</p>
+            <img src="project1-screenshot.png" alt="Project 1 Screenshot">
+        </div>
+
+        <div class="project">
+            <h3>Project 2: Quantum Visualizer</h3>
+            <p>Simulated basic quantum states and superposition using Python and QuTiP. Includes visual plots of probability distributions.</p>
+            <img src="project2-screenshot.png" alt="Project 2 Screenshot">
+        </div>
+
+        <div class="project">
+            <h3>Project 3: Data Analysis Tool</h3>
+            <p>Python tool for analysing and visualising experimental datasets. Utilises Pandas, Matplotlib, and SciPy for processing and plotting data.</p>
+            <img src="project3-screenshot.png" alt="Project 3 Screenshot">
+        </div>
     </div>
 </div>
 
